@@ -1,2 +1,2 @@
-FROM nginx:latest
-COPY pogo/* /usr/share/nginx/html/
+FROM nginx
+COPY ./src/* /usr/share/nginx/html/
